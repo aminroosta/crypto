@@ -1,0 +1,13 @@
+body {
+    overflow: hidden;
+    margin: 0;
+ }
+
+ #app {
+      overflow: auto;
+      height: 100vh;
+      // fix pinch zoom on safari
+      // https://stackoverflow.com/questions/4389932/x/64586021#64586021
+      height: -webkit-fill-available;
+     -webkit-overflow-scrolling: touch;
+ }
